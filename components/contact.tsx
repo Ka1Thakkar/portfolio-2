@@ -21,9 +21,9 @@ export default function Contact () {
           {/* <div className="px-40">
             <Image src={Kavan} className="rounded-full" />
           </div> */}
-          <div className="px-20 md:px-40 text-center font-serif md:flex md:items-center md:justify-between md:text-left pt-36">
+          <div className="px-20 md:px-40 text-center font-serif md:flex md:items-center md:justify-between md:text-left pt-20">
           {/* <Image src= {Kavan} className="rounded-full h-56 w-56 md:h-64 md:w-64 mx-auto md:mx-0 shadow-lg shadow-black hover:shadow-2xl hover:shadow-black" /> */}
-          <div className="pb-5 font-sans bg-teal-600 rounded-xl px-5 shadow-md shadow-black my-10 mx-auto">
+          <div className="p-10 font-sans bg-teal-600 rounded-xl px-5 shadow-md shadow-black my-10 mx-auto">
             <AiOutlineContacts className='text-5xl mx-auto' />
             <h1 className="pb-2 pt-10 text-black text-3xl font-bold text-center">Kavan Thakkar</h1>
             <h2 className="text-black text-lg text-center"><span className="font-bold">Phone Number:</span> 9925141357</h2>
