@@ -142,7 +142,7 @@ export default function Portfolio () {
                 </div>
                 <div className='py-5'>
                     <div className='p-10 bg-black bg-opacity-30 rounded-xl'>
-                        <a href='https://github.com/Ka1Thakkar/BITS-Club-sample' target='_blank' className=''>
+                        <a href='https://github.com/Ka1Thakkar/portfolio-2' target='_blank' className=''>
                         <div className='flex gap-5'>
                                 <BsPerson className='text-5xl 2xl:text-6xl' />
                                 <h1 className='text-5xl 2xl:text-6xl font-bold'>Portfolio</h1>
@@ -151,7 +151,7 @@ export default function Portfolio () {
                             <p className='text-md 2xl:text-lg text-gray-300 pt-5'>One of my largest solo project, till date.</p>
                         </a>
                         <div className='flex pt-10 underline'>
-                                <a href='https://bits-club.netlify.app/' target='_blank'><p className='text-md'>Link to the hosted website</p></a>
+                                <a href='https://portfolio-mu-six-78.vercel.app/' target='_blank'><p className='text-md'>Link to the hosted website</p></a>
                                 <BsArrowUpRight className='text-sm' />        
                         </div>
                     </div>
