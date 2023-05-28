@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import react from 'react';
 import Image from 'next/image'
 import { 
@@ -82,8 +83,8 @@ export default function Portfolio () {
                                 <BsLink45Deg className='text-5xl 2xl:text-6xl' />
                                 <h1 className='text-5xl 2xl:text-6xl font-bold'>Lead Tracker</h1>
                             </div>
-                            <p className='text-xl 2xl:text-2xl text-gray-300 pt-5'>A chrome extension that can be used to store link to any website. It also has 'Save Tab' button which directly stores the link to the website opened in the current tab. It uses the localStorage property to store the leads even after the browser is closed.</p>
-                            <p className='text-md 2xl:text-lg text-gray-300 pt-5'>It's not available on the chrome extentions store. So, the attached link is basically how it'd look if it was a website instead of a extension.</p>
+                            <p className='text-xl 2xl:text-2xl text-gray-300 pt-5'>A chrome extension that can be used to store link to any website. It also has &{"'Save Tab'"} button which directly stores the link to the website opened in the current tab. It uses the localStorage property to store the leads even after the browser is closed.</p>
+                            <p className='text-md 2xl:text-lg text-gray-300 pt-5'>{"It's"} not available on the chrome extentions store. So, the attached link is basically how it&apos;d look if it was a website instead of a extension.</p>
                         </a>
                         <div className='flex pt-10 underline'>
                                 <a href='https://ka1thakkar.github.io/Lead-Tracker/' target='_blank'><p className='text-md'>Link to the hosted website</p></a>
@@ -98,8 +99,8 @@ export default function Portfolio () {
                                 <SiAirbnb className='text-5xl 2xl:text-6xl' />
                                 <h1 className='text-5xl 2xl:text-6xl font-bold'> Airbnb clone</h1>
                             </div>
-                            <p className='text-xl 2xl:text-2xl text-gray-300 pt-5'>My first react web app. It's a very simple, visual clone of Airbnb website.</p>
-                            <p className='text-md 2xl:text-lg text-gray-300 pt-5'>It doesn't have any functionality as it's supposed to be my intrduction to React.js</p>
+                            <p className='text-xl 2xl:text-2xl text-gray-300 pt-5'>My first react web app. It&apos;s a very simple, visual clone of Airbnb website.</p>
+                            <p className='text-md 2xl:text-lg text-gray-300 pt-5'>It {"doesn't"} have any functionality as {"it's"} supposed to be my intrduction to React.js</p>
                         </a>
                         <div className='flex pt-10 underline'>
                                 <a href='https://airbnb-clone-ka1.netlify.app/' target='_blank'><p className='text-md'>Link to the hosted website</p></a>
@@ -115,7 +116,7 @@ export default function Portfolio () {
                                 <h1 className='text-5xl 2xl:text-6xl font-bold'>Simon Game</h1>
                             </div>
                             <p className='text-xl 2xl:text-2xl text-gray-300 pt-5'>A memeory based in which the play has to memorise the order of the randomly highlighted colored buttons.</p>
-                            <p className='text-md 2xl:text-lg text-gray-300 pt-5'>This game was used as an example, during the 'Introduction to Front-End development' workshop I organised as the front end team lead at GDSC, BITS Pilani.</p>
+                            <p className='text-md 2xl:text-lg text-gray-300 pt-5'>This game was used as an example, during the {"'Introduction to Front-End development'"} workshop I organised as the front end team lead at GDSC, BITS Pilani.</p>
                         </a>
                         <div className='flex pt-10 underline'>
                                 <a href='https://ka1thakkar.github.io/Simon-Game-Workshop/' target='_blank'><p className='text-md'>Link to the hosted website</p></a>

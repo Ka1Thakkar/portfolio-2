@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import react from 'react';
 import Image from 'next/image'
 
@@ -9,7 +10,7 @@ export default function About() {
               <p className='text-xl py-5 font-sans text-center'>
               My name is Kavan Thakkar. I am pursuing a dual degree in <span>MSc Physics</span> and <span className='font-bold'>B.E. Electronics and
               Instrumentation</span>. I have fundamental knowledge of web development and am currently mastering
-              React.js. As a part of the <span className='font-bold'>GDSC BITS Pilani chapter's core team</span>, I have gained invaluable expertise in leadership, teamwork, and cutting-edge technology. I am passionate about keeping up of the latest developments in my profession and utilising them to produce excellent results.
+              React.js. As a part of the <span className='font-bold'>GDSC BITS Pilani {"chapter's"} core team</span>, I have gained invaluable expertise in leadership, teamwork, and cutting-edge technology. I am passionate about keeping up of the latest developments in my profession and utilising them to produce excellent results.
               </p>
             </div>
             <div className="lg:flex gap-10 font-mono">
