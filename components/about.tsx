@@ -15,34 +15,14 @@ export default function About() {
             </div>
             <div className="lg:flex gap-10 font-mono">
               <div className="shadow-md bg-opacity-70 bg-white p-10 rounded-xl my-10 basis-1/2 shadow-orange-400 hover:shadow-orange-400 hover:shadow-lg hover:bg-opacity-80">
-                <h1 className="text-3xl text-center md:text-left text-orange-600 font-extrabold">Education:</h1>
-                <ul className="list-disc text-black">
-                  <li className="py-2">
-                    <div className="">
-                      <h2 className="text-black text-xl py-1 font-bold">Delhi Public School, Bopal, Ahmedabad</h2>
-                      <h2 className="text-black text-xl">(2007-2019)</h2>
-                    </div>
-                    <p className="text-lg text-gray-800">10th grade: 95.7%</p>
-                  </li>
-                  <li className="py-2">
-                    <div className="">
-                      <h2 className="text-black text-xl py-1 font-bold">Rahul International School, Nallasopara, Palghar</h2>
-                      <h2 className="text-black text-xl">(2019-2021)</h2>
-                    </div>
-                    <p className="text-lg text-gray-800">12th grade: 93.2%</p>
-                  </li>
-                  <li className="py-2">
-                    <div className="">
-                      <h2 className="text-black text-xl py-1 font-bold">Birla Institute of Technology and Sciences, Pilani, Rajasthan</h2>
-                      <h2 className="text-black text-xl">(2021-pesent)</h2>
-                    </div>
-                    <p className="text-lg text-gray-800">Cumulative Grade: 7.05</p>
-                  </li>
-                </ul>
-              </div>
-              <div className="shadow-md bg-opacity-70 bg-white p-10 rounded-xl my-10 basis-1/2 shadow-orange-400 hover:shadow-orange-400 hover:shadow-lg hover:bg-opacity-80">
                 <h1 className="text-3xl text-center md:text-left text-orange-600 font-extrabold">Experience:</h1>
                 <ul className=" list-disc text-black">
+                  <li className="py-2">
+                    <div className="">
+                      <h2 className="text-black text-xl py-1 font-extrabold">Bhaskaracharya Institute for Space Applications and Geoinformatics (BISAG-N), Gandhinagar</h2>
+                      <h2 className="text-black text-xl">(June 2023-August 2023)</h2>
+                    </div>
+                  </li>
                   <li className="py-2">
                     <div className="">
                       <h2 className="text-black text-xl py-1 font-extrabold">Google Developer Student Clubs, BITS Pilani</h2>
@@ -54,11 +34,31 @@ export default function About() {
                     <h2 className="text-gray-800 text-lg py-1 font-bold">Skills Gathered:</h2>
                     <p className="text-gray-700 py-1">React.js, Vue.js, Vuetify, WAMP, HTML, HTML5, Cascading Style Sheets (CSS), JavaScript, Python (Programming Language), MySQL, Version Control</p>
                   </li>
+                </ul>
+              </div>
+              <div className="shadow-md bg-opacity-70 bg-white p-10 rounded-xl my-10 basis-1/2 shadow-orange-400 hover:shadow-orange-400 hover:shadow-lg hover:bg-opacity-80">
+                <h1 className="text-3xl text-center md:text-left text-orange-600 font-extrabold">Education:</h1>
+                <ul className="list-disc text-black">
                   <li className="py-2">
                     <div className="">
-                      <h2 className="text-black text-xl py-1 font-extrabold">Bhaskaracharya Institute for Space Applications and Geoinformatics (BISAG-N), Gandhinagar</h2>
-                      <h2 className="text-black text-xl">(June 2023-August 2023)</h2>
+                      <h2 className="text-black text-xl py-1 font-bold">Birla Institute of Technology and Sciences, Pilani, Rajasthan</h2>
+                      <h2 className="text-black text-xl">(2021-pesent)</h2>
                     </div>
+                    <p className="text-lg text-gray-800">Cumulative Grade: 7.05</p>
+                  </li>
+                  <li className="py-2">
+                    <div className="">
+                      <h2 className="text-black text-xl py-1 font-bold">Rahul International School, Nallasopara, Palghar</h2>
+                      <h2 className="text-black text-xl">(2019-2021)</h2>
+                    </div>
+                    <p className="text-lg text-gray-800">12th grade: 93.2%</p>
+                  </li>
+                  <li className="py-2">
+                    <div className="">
+                      <h2 className="text-black text-xl py-1 font-bold">Delhi Public School, Bopal, Ahmedabad</h2>
+                      <h2 className="text-black text-xl">(2007-2019)</h2>
+                    </div>
+                    <p className="text-lg text-gray-800">10th grade: 95.7%</p>
                   </li>
                 </ul>
               </div>
