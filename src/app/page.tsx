@@ -8,7 +8,7 @@ import Portfolio from '../../components/portfolio'
 
 export default function app() {
   return (
-    <html className=' scroll-smooth 2xl:overflow-hidden'>
+    <html className=' scroll-smooth 2xl:overflow-hidden bg-black'>
       <body className='2xl:overflow-hidden 2xl:max-h-screen'>
         <main>
           <Nav />
