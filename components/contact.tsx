@@ -7,6 +7,8 @@ import {
     AiOutlineMail,
     AiOutlineContacts
 } from "react-icons/ai";
+import Kavan from '../public/Kavan.png'
+
 
 export default function Contact () {
     return (

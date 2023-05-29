@@ -14,7 +14,7 @@ export default function Nav() {
                   <button className="px-2 text-sm md:px-5 rounded-full hover:text-black hover:bg-teal-500 md:text-xl"><a href="#skills">Skills</a></button>
                 </li>
                 <li>
-                  <button className="px-2 text-sm md:px-5 rounded-full hover:text-black hover:bg-teal-500 md:text-xl"><a href="#portfolio">Portfolio</a></button>
+                  <button className="px-2 text-sm md:px-5 rounded-full hover:text-black hover:bg-teal-500 md:text-xl"><a href="#projects">Projects</a></button>
                 </li>
                 <li>
                   <button className="px-2 text-sm md:px-5 rounded-full hover:text-black hover:bg-teal-500 md:text-xl"><a href="#contact">Contact</a></button>

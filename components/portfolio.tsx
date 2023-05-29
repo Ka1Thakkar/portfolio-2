@@ -21,9 +21,9 @@ import {
 
 export default function Portfolio () {
     return (
-        <section id="portfolio" className="2xl:flex py-32 2xl:max-h-screen overflow-hidden justify-evenly gap-10">
+        <section id="projects" className="2xl:flex 2xl:py-32 2xl:max-h-screen overflow-hidden 2xl:justify-center 2xl:gap-10 pt-24">
             <div className='2xl:my-auto text-white overflow-auto 2xl:overflow-y-scroll 2xl:bg-gray-600 2xl:bg-opacity-50 2xl:shadow-lg 2xl:px-10 2xl:shadow-black rounded-xl scrollbar-thin 2xl:max-w-min 2xl:py-10'>
-              <h1 className='text-6xl py-1 text-teal-500 font-bold text-center font-mono'>Portfolio</h1>
+              <h1 className='text-6xl py-1 text-teal-500 font-bold text-center font-mono'>Projects</h1>
               <h3 className="text-xl py-2 leading-8 text-white mt-8 text-center">I have created a few projects to enhance my skills as a front end developer, this portfolio being one of them.</h3>
               <h3 className='text-md pt-20 text-center text-gray-300'>Click on the respective tiles to open the respective GitHub respository.</h3>
             </div>
@@ -115,7 +115,7 @@ export default function Portfolio () {
                                 <BsJoystick className='text-5xl 2xl:text-6xl' />
                                 <h1 className='text-5xl 2xl:text-6xl font-bold'>Simon Game</h1>
                             </div>
-                            <p className='text-xl 2xl:text-2xl text-gray-300 pt-5'>A memeory based in which the play has to memorise the order of the randomly highlighted colored buttons.</p>
+                            <p className='text-xl 2xl:text-2xl text-gray-300 pt-5'>A memory based in which the play has to memorise the order of the randomly highlighted colored buttons.</p>
                             <p className='text-md 2xl:text-lg text-gray-300 pt-5'>This game was used as an example, during the {"'Introduction to Front-End development'"} workshop I organised as the front end team lead at GDSC, BITS Pilani.</p>
                         </a>
                         <div className='flex pt-10 underline'>
@@ -147,7 +147,7 @@ export default function Portfolio () {
                                 <BsPerson className='text-5xl 2xl:text-6xl' />
                                 <h1 className='text-5xl 2xl:text-6xl font-bold'>Portfolio</h1>
                             </div>
-                            <p className='text-xl 2xl:text-2xl text-gray-300 pt-5'>A wesbite for people to get to know me, schowcase my skills, and connect with like minded people.</p>
+                            <p className='text-xl 2xl:text-2xl text-gray-300 pt-5'>A website for people to get to know me, showcase my skills, and connect with like minded people.</p>
                             <p className='text-md 2xl:text-lg text-gray-300 pt-5'>One of my largest solo project, till date.</p>
                         </a>
                         <div className='flex pt-10 underline'>

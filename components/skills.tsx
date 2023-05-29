@@ -22,7 +22,7 @@ import {
 
 export default function Skills() {
     return (
-        <section id="skills" className="2xl:flex 2xl:gap-10 2xl:py-32 2xl:max-h-screen 2xl:justify-center">
+        <section id="skills" className="2xl:flex 2xl:gap-10 2xl:py-32 2xl:max-h-screen 2xl:justify-between">
             <div className='2xl:my-auto text-white overflow-auto 2xl:overflow-y-scroll 2xl:bg-gray-600 2xl:bg-opacity-50 2xl:shadow-md py-20 2xl:px-10 2xl:shadow-black rounded-xl scrollbar-thin 2xl:max-w-min'>
               <h1 className='text-7xl py-1 text-teal-500 font-bold text-center font-mono'>Skills</h1>
               <h3 className="text-xl py-2 leading-8 text-white mt-8 text-center">I started my journey as a front-end developer 1 year ago and since then, I have worked with many tools like:</h3>
