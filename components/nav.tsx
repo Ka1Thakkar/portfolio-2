@@ -8,19 +8,19 @@ export default function Nav() {
             <h1 className="text-transparent sm:text-opacity-100 md:text-transparent text-sm py-o.5">|</h1>
             <ul className='flex pb-1 gap-1 md:gap-2 justify-center'>
                 <li>
-                  <button className="px-2 text-sm md:px-5 md:text-xl border-b-4 border-transparent hover:border-teal-500"><a href="#">Home</a></button>
+                  <button className="px-2 text-sm md:px-5 md:text-xl border-b-4 border-transparent hover:border-red-600"><a href="#">Home</a></button>
                 </li>
                 <li>
-                  <button className="px-2 text-sm md:px-5 md:text-xl border-b-4 border-transparent hover:border-teal-500"><a href="#about">About</a></button>
+                  <button className="px-2 text-sm md:px-5 md:text-xl border-b-4 border-transparent hover:border-red-600"><a href="#about">About</a></button>
                 </li>
                 <li>
-                  <button className="px-2 text-sm md:px-5 md:text-xl border-b-4 border-transparent hover:border-teal-500"><a href="#skills">Skills</a></button>
+                  <button className="px-2 text-sm md:px-5 md:text-xl border-b-4 border-transparent hover:border-red-600"><a href="#skills">Skills</a></button>
                 </li>
                 <li>
-                  <button className="px-2 text-sm md:px-5 md:text-xl border-b-4 border-transparent hover:border-teal-500"><a href="#projects">Projects</a></button>
+                  <button className="px-2 text-sm md:px-5 md:text-xl border-b-4 border-transparent hover:border-red-600"><a href="#projects">Projects</a></button>
                 </li>
                 <li>
-                  <button className="px-2 text-sm md:px-5 md:text-xl border-b-4 border-transparent hover:border-teal-500"><a href="#contact">Contact</a></button>
+                  <button className="px-2 text-sm md:px-5 md:text-xl border-b-4 border-transparent hover:border-red-600"><a href="#contact">Contact</a></button>
                 </li>
             </ul>
         </nav>
