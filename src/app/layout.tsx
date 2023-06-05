@@ -1,7 +1,10 @@
-import './globals.css'
-import { Inter } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+import './globals.css'
+import Nav from '../../components/nav'
+import Link from 'next/link'
+import {motion} from 'framer-motion'
+
+
 
 export const metadata = {
   title: 'Ka1 Portfolio',
@@ -14,8 +17,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className='2xl:overflow-hidden'>
+      <body>
+        <Nav />
+        {children}
+      </body>
     </html>
   )
 }
