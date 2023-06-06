@@ -9,7 +9,7 @@ const variants = {
   animate:{
     x:0,
     opacity:1,
-    transition:{duration:1}
+    transition:{duration:1, delay:0.5}
   },
 }
 
@@ -38,7 +38,7 @@ export default function About() {
             <motion.p
             initial={{opacity:0, x:-40}}
             animate={{opacity:1, x:0}}
-            transition={{delay:1,duration:1}}
+            transition={{delay:0.5,duration:1}}
             className='text-md sm:text-xl py-5 font-sans text-left'>
               I am pursuing a dual degree in <span>MSc Physics</span> and <span className='font-bold'>B.E. Electronics and
               Instrumentation</span>. I have fundamental knowledge of web development and am currently mastering
