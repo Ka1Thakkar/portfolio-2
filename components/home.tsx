@@ -41,7 +41,8 @@ const _variants = {
 
 const variant = {
     hover:{
-        y:-5,
+        y:-20,
+        opacity:0.9,
         transition:{delay:0, duration:0.1}
     },
 }
@@ -49,13 +50,13 @@ const variant = {
 export default function Home() {
     return (
         <div className={advent.className}>
-            <div className='lg:flex md:gap-10 items-center justify-center'>
+            <div className='lg:flex md:gap-10 items-center justify-center sm:pt-24 xl:pt-36'>
         <motion.section
             initial={{opacity:0, y:-40}}
             animate={{opacity:1, y:0}}
             transition={{delay:0.2,duration:1}}
             id="home"
-            className=' px-10 sm:p-10 rounded-xl text-left sm:pt-24 pt-10 overflow-hidden pb-12 z-10'>
+            className=' px-10 rounded-xl text-left overflow-hidden pb-12 z-10'>
             <p className='text-xl text-orange-600 font-bold pb-1 font-mono'>{"Hi, my name is"}</p>
             <h1 className='text-6xl 2xl:text-7xl xl:text-7xl pb-1 text-white md:text-7xl lg:text-6xl'>Kavan Thakkar</h1>
             <h2 className='text-2xl pt-1 pb-5 md:text-3xl xl:text-4xl font-bold text-gray-300 font-mono'>{"I am a Full Stack Developer and a Designer,"}</h2>
