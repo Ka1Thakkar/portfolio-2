@@ -2,6 +2,7 @@
 'use client' 
 import react from 'react';
 import Image from 'next/image'
+import Link from 'next/link';
 import { 
     SiUbereats,
     SiAirbnb,
@@ -21,15 +22,23 @@ import {
 } from "react-icons/cg"
 import {motion as m} from'framer-motion'
 
+import { Monoton } from '@next/font/google'
+
+const advent = Monoton({
+    subsets:['latin'],
+    weight:"400"
+})
+
 export default function Portfolio () {
     return (
-        <section id="projects" className="2xl:flex 2xl:pt-10 2xl:pb-32 2xl:max-h-screen overflow-hidden 2xl:justify-center 2xl:gap-10 2xl:py-32 pt-10 px-10 bg-gradient-to-b from-black to-stone-900">
+        <div className={advent.className}>
+        <section id="projects" className="2xl:flex 2xl:pt-10 2xl:pb-32 2xl:max-h-screen overflow-hidden 2xl:justify-center 2xl:gap-10 2xl:py-32 pt-10 px-10 bg-gradient-to-b from-black via-gray-900 to-sky-900/70">
             <div className='2xl:my-auto text-white overflow-auto 2xl:overflow-y-scroll 2xl:px-10 rounded-xl scrollbar-thin 2xl:w-auto 2xl:py-10 xl:px-10'>
               <m.h1
                 initial={{opacity:0, x:40}}
                 animate={{opacity:1, x:0}}
                 transition={{duration:1}}
-                className='text-6xl 2xl:text-4xl py-1 text-white font-bold text-left 2xl:text-right decoration-red-600 decoration-4 underline-offset-8 underline font-serif'>Projects</m.h1>
+                className='text-5xl 2xl:text-5xl py-1 text-white text-left 2xl:text-right decoration-red-600 decoration-4 underline-offset-8 underline'>Projects</m.h1>
               <m.h3
                 initial={{opacity:0, x:40}}
                 animate={{opacity:1, x:0}}
@@ -39,10 +48,10 @@ export default function Portfolio () {
                 initial={{opacity:0, x:40}}
                 animate={{opacity:1, x:0}}
                 transition={{delay:1,duration:1}}
-                className='text-md pt-20 text-left 2xl:text-right text-gray-400 font-bold'>Click on the respective tiles to open the respective GitHub respository.</m.h3>
+                className='text-md pt-20 text-left 2xl:text-right text-gray-400 font-mono font-bold'>Click on the respective tiles to open the respective GitHub respository.</m.h3>
             </div>
             <m.div
-            className=' 2xl:max-h-screen 2xl:overflow-y-scroll scrollbar-thin text-white overflow-visible py-5 xl:px-10 rounded-xl 2xl:w-auto 2xl:py-auto'>
+            className=' 2xl:max-h-screen 2xl:overflow-y-scroll scrollbar-thin text-white overflow-visible py-5 xl:px-10 rounded-xl 2xl:w-auto 2xl:py-auto font-sans scrollbar-thumb-orange-600 scrollbar-track-transparent'>
                 <m.div
                 initial={{opacity:0, x:-40}}
                 whileInView={{opacity:1, x:0}}
@@ -206,12 +215,13 @@ export default function Portfolio () {
                             <p className='text-md 2xl:text-lg text-gray-300 pt-5'>One of my largest solo project, till date.</p>
                         </a>
                         <div className='flex pt-10 underline'>
-                                <a href='#'><p className='text-md'>Link to the hosted website</p></a>
+                                <Link href='/'><p className='text-md'>Link to the hosted website</p></Link>
                                 <BsArrowUpRight className='text-sm' />        
                         </div>
                     </div>
                 </m.div>
             </m.div>
         </section>
+        </div>
     )
 }

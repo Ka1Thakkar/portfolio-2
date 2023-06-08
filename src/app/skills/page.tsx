@@ -24,17 +24,25 @@ import {
     SiNumpy,
     SiScikitlearn,
    } from "react-icons/si"
-   import {motion as m} from 'framer-motion' 
+   import {motion as m} from 'framer-motion'
+
+   import { Monoton } from '@next/font/google'
+
+const advent = Monoton({
+    subsets:['latin'],
+    weight:"400"
+})
 
 export default function Skills() {
     return (
-        <section id="skills" className="2xl:flex 2xl:gap-10 2xl:pt-10 2xl:pb-32 2xl:max-h-screen pt-10 bg-gradient-to-b from-black to-stone-900 px-10">
+      <div className={advent.className}>
+        <section id="skills" className="2xl:flex 2xl:gap-10 2xl:pb-32 2xl:max-h-screen pt-10 bg-gradient-to-b from-black via-gray-900 to-sky-900/70 px-10 2xl:pt-0">
             <div className='2xl:my-auto text-white overflow-auto 2xl:overflow-y-scroll 2xl:py-0 2xl:px-10 scrollbar-thin'>
               <m.h1
               initial={{opacity:0, x:40}}
               animate={{opacity:1, x:0}}
               transition={{duration:1}}
-              className='text-6xl 2xl:text-4xl pb-1 text-white underline decoration-4 underline-offset-8 decoration-red-600 font-bold text-left 2xl:text-right font-serif xl:px-10'>Skills</m.h1>
+              className='text-6xl 2xl:text-5xl pb-1 text-white underline decoration-4 underline-offset-8 decoration-red-600 text-left 2xl:text-right xl:px-10'>Skills</m.h1>
               <m.p
                           initial={{opacity:0, x:40}}
                           animate={{opacity:1, x:0}}
@@ -42,7 +50,7 @@ export default function Skills() {
               className="text-2xl 2xl:text-4xl py-2 leading-8 text-white mt-8 text-left 2xl:text-right font-mono xl:px-10">I started my journey as a front-end developer 1 year ago and since then, I have worked with many tools like:</m.p>
             </div>
             <m.div
-            className=' 2xl:max-h-screen 2xl:overflow-y-scroll scrollbar-thin text-white overflow-visible xl:px-10 rounded-xl 2xl:min-w-max 2xl:py-10'>
+            className=' 2xl:max-h-screen 2xl:overflow-y-scroll scrollbar-thin text-white overflow-visible xl:px-10 rounded-xl 2xl:min-w-max 2xl:py-10 scrollbar-thumb-orange-600'>
               <m.div 
               initial={{opacity:0, x:-40}}
               whileInView={{opacity:1, x:0}}
@@ -276,5 +284,6 @@ export default function Skills() {
               </m.div>  
             </m.div>
           </section>
+        </div>
     )
 }
