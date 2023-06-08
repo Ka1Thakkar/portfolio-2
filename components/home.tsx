@@ -42,7 +42,7 @@ const _variants = {
 const variant = {
     hover:{
         y:-20,
-        opacity:0.9,
+        opacity:0.8,
         transition:{delay:0, duration:0.1}
     },
 }
