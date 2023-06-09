@@ -60,7 +60,7 @@ export default function Home() {
             <p className='text-xl text-orange-600 font-bold pb-1 font-mono'>{"Hi, my name is"}</p>
             <h1 className='text-6xl 2xl:text-7xl xl:text-7xl pb-1 text-white md:text-7xl lg:text-6xl'>Kavan Thakkar</h1>
             <h2 className='text-2xl pt-1 pb-5 md:text-3xl xl:text-4xl font-bold text-gray-300 font-mono'>{"I am a Full Stack Developer and a Designer,"}</h2>
-            <p className='text-xl pt-2 pb-5 text-gray-400 md:text-md xl:text-md max-w-xl rounded-xl font-mono'>{"Third year student at Birla Institute of Technology and Science, Pilani and a front-end development enthusiast. Let's connect!"}</p>
+            <p className='text-xl pt-2 pb-5 text-gray-400 md:text-md xl:text-md max-w-xl rounded-xl font-mono'>{"Full stack developer and a third year student at Birla Institute of Technology and Science, Pilani. Let's connect!"}</p>
             <div className="flex pt-5 pb-5 text-white text-4xl gap-8 items-center">
               <Link className="hover:text-white" href="https://github.com/Ka1Thakkar" target="_blank"><motion.button variants={_variants} whileHover={"hover"}><AiFillGithub /></motion.button></Link>
               <Link className="hover:text-white" href="https://www.linkedin.com/in/kavan-thakkar/" target="_blank"><motion.button variants={_variants} whileHover={"hover"}><AiFillLinkedin /></motion.button></Link>
