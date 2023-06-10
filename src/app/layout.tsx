@@ -3,7 +3,6 @@ import './globals.css'
 import Nav from '../../components/nav'
 import Link from 'next/link'
 import {motion} from 'framer-motion'
-import Footer from '../../components/footer'
 
 
 
