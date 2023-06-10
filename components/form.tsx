@@ -94,12 +94,6 @@ function ContactForm() {
         className='flex justify-center font-bold'>
             <button type="submit" disabled={state.submitting} className='bg-orange-600 rounded-xl px-5 py-2 border-orange-600 border-2 outline-none'>Submit</button>
         </m.div>
-        <div className="flex pt-5 text-white text-3xl gap-5 items-center justify-center">
-              <Link className="hover:text-white" href="https://github.com/Ka1Thakkar" target="_blank"><m.button variants={_variants} whileHover={"hover"}><TbBrandGithub /></m.button></Link>
-              <Link className="hover:text-white" href="https://www.linkedin.com/in/kavan-thakkar/" target="_blank"><m.button variants={_variants} whileHover={"hover"}><TbBrandLinkedin /></m.button></Link>
-              <Link className="hover:text-white" href="mailto:kavan1357@gmail.com" target="_blank"><m.button variants={_variants} whileHover={"hover"}><TbBrandGmail /></m.button></Link>
-              <Link className="hover:text-white" href="mailto:kavan1357@gmail.com" target="_blank"><m.button variants={_variants} whileHover={"hover"}><TbBrandStackoverflow /></m.button></Link>
-            </div>
         </div>
     </form>
     </section>
