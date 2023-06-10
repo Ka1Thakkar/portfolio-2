@@ -55,12 +55,14 @@ export default function Skills() {
               initial={{opacity:0, x:40}}
               animate={{opacity:1, x:0}}
               transition={{duration:1}}
-              className='text-6xl 2xl:text-6xl pb-1 text-white underline decoration-4 underline-offset-8 decoration-red-600 text-left xl:px-10'>Skills</m.h1>
+              className='text-5xl 2xl:text-6xl pb-1 text-white underline decoration-4 underline-offset-8 decoration-red-600 text-left xl:px-10'>Skills</m.h1>
+              <div className={poppins.className}>
               <m.p
                           initial={{opacity:0, x:40}}
                           animate={{opacity:1, x:0}}
                           transition={{delay:0.5,duration:1}}
-              className="text-2xl 2xl:text-4xl py-2 leading-8 text-white mt-8 text-left font-mono xl:px-10">I started my journey as a front-end developer 1 year ago and since then, I have worked with many tools like:</m.p>
+              className="text-2xl 2xl:text-4xl py-2 leading-8 text-white mt-8 text-left xl:px-10">I started my journey as a front-end developer 1 year ago and since then, I have worked with many tools like:</m.p>
+            </div>
             </div>
             <div className={poppins.className}>
             <m.div

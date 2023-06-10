@@ -42,7 +42,7 @@ export default function Contact () {
             className="text-white text-4xl lg:px-40 pt-5 text-left font-mono">Drop me a message on any of my socials!!</m.h2>
           </div>
           <div className="md:px-40 text-center font-serif md:flex md:items-center md:justify-between md:text-left pt-10 pb-12 2xl:pb-12">
-          <Form />
+            <Form />
           {/* <Image src= {Kavan} className="rounded-full h-56 w-56 md:h-64 md:w-64 mx-auto md:mx-0 shadow-lg shadow-black hover:shadow-2xl hover:shadow-black" /> */}
           {/* <m.div
           initial={{opacity:0, y:40}}
