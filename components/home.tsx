@@ -46,7 +46,7 @@ const variant = {
 export default function Home() {
     return (
         <div className={advent.className}>
-            <div className='lg:flex md:gap-10 items-center justify-center sm:pt-24 xl:pt-36'>
+            <div className='lg:flex lg:flex-row-reverse md:gap-10 items-center justify-center sm:pt-24 xl:pt-36'>
         <motion.section
             initial={{opacity:0, y:-40}}
             animate={{opacity:1, y:0}}
