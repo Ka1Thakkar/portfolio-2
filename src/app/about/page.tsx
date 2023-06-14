@@ -47,7 +47,7 @@ export default function About() {
             initial={{opacity:0, y:-40}}
             animate={{opacity:1, y:0}}
             transition={{duration:1, delay:0.2}}
-            className='text-white text-2xl lg:px-20 xl:px-40 2xl:px-80 pb-5'> Hey!! My name is Kavan, nice to meet you. Please take a look around. 😊</motion.h2>
+            className='text-white text-2xl lg:px-20 xl:px-40 2xl:px-80 pb-5'> Hey!! My name is Kavan, nice to meet you. Please take a look around.</motion.h2>
             <motion.div
             initial={{opacity:0, y:-40}}
             animate={{opacity:1, y:0}}
