@@ -57,7 +57,7 @@ export default function Home() {
             <h1 className='text-6xl 2xl:text-7xl xl:text-7xl pb-1 text-white md:text-7xl lg:text-6xl'>Kavan Thakkar</h1>
             <h2 className='text-2xl pt-1 pb-5 md:text-3xl xl:text-4xl font-bold text-gray-300 font-mono'>{"I am a Full Stack Developer and a Designer,"}</h2>
             <p className='text-xl pt-2 pb-5 text-gray-400 md:text-md xl:text-md max-w-xl rounded-xl font-mono'>{"Full stack developer and a third year student at Birla Institute of Technology and Science, Pilani. Let's connect!"}</p>
-            <Link href="https://drive.google.com/file/d/1-dvGcmOb8DlGOP65GmR-2jjrbf_TUSuX/view?usp=sharing" target="_blank" rel="noopener noreferrer" className='' >
+            <Link href="https://drive.google.com/file/d/1uMAB9NJXrExu2TmQ7hwGDfO4usC06-iJ/view?usp=sharing" target="_blank" rel="noopener noreferrer" className='' >
             <motion.button
             variants={variants}
             whileHover={"hover"}
