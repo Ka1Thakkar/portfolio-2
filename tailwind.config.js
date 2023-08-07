@@ -1,19 +1,20 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*'
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
-  plugins: [
-    require('tailwind-scrollbar')
-  ],
-  theme:{
-    extend:{
-      colors:{
-        primary: '#b5ff01',
+  theme: {
+    extend: {
+      colors : {
+        bggray: '#ecefee',
+        navbg: '#383837',
+        textblue: '#003dff',
+        textgreen: '#c0eb00',
+        textred:"#dd0036"
       }
-    }
-  }
+    },
+  },
+  plugins: [],
 }
