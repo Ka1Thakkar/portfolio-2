@@ -2,7 +2,7 @@
 import { Pacifico } from "next/font/google";
 import Link from "next/link";
 import { TbBrandBehance, TbBrandGithub, TbBrandGmail, TbBrandLinkedin, TbBrandStackoverflow } from "react-icons/tb";
-import Form from "./Form";
+import Form from "@/components/Form";
 
 const pacifico = Pacifico({weight:['400'],subsets:['latin']})
 
